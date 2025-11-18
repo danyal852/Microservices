@@ -31,12 +31,13 @@
             <version>${spring-boot-admin.version}</version>
         </dependency>
 
-        <!-- Actuator (Required for Admin UI Monitoring) -->
+        <!-- Actuator -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
+        <!-- Feign Client -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
@@ -59,11 +60,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.admin-server</groupId>
-            <artifactId>admin-server</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
     </dependencies>

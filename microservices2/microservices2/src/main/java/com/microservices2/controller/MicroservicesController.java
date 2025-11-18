@@ -12,6 +12,7 @@ public class MicroservicesController {
     @Autowired
     private MessegeClient messegeClient;
     //http://localhost:8082/api/v1/ms2/call
+    //API-http://localhost:5050/micro2/api/v1/ms2/call
     @GetMapping("/call")
     public String getMessageFromMs1() {
         return messegeClient.getMessage();
